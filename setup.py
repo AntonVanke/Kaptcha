@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="kaptcha",
-    version="1.0.0",
+    version="1.0.1",
     author="AntonVanke",
     description="一个图形验证码生成工具",
     author_email="antonvanke@hotmail.com",
@@ -20,7 +20,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=["pillow"],
-    keywords="captcha",
+    keywords="Captcha Verification-Code Code",
     include_package_data=True,
     python_requires=">3.7"
 )
