@@ -1,6 +1,6 @@
 ## Kaptcha:python 验证码生成工具
 
-![Kaptcha](.\demos\Kaptcha.jpg)
+![Kaptcha](https://github.com/AntonVanke/Kaptcha/raw/master/demos/Kaptcha.jpg)
 
 ## 简述
 
@@ -14,14 +14,14 @@
 
 | 类型(干扰都为5) | 内容 | 图片                                                         |
 | --------------- | ---- | ------------------------------------------------------------ |
-| 字母数字混合型  | 7w8W | ![HyGU](.\demos\HyGU.jpg)                                    |
-| 数字型          | 5244 | ![5244](.\demos\5244.jpg)                                    |
-| 字母型          | Ehqx | ![jFbF](.\demos\jFbF.jpg)                                   |
-| 增强型          | wd81 | ![wd81](.\demos\wd81.jpg)                                   |
-| 边缘凸显        | bpCk | ![bpCk](.\demos\bpCk.jpg) |
-| 浮雕效果        | MkT6 | ![MkT6](.\demos\MkT6.jpg) |
-| 轮廓            | qXLT | ![qXLT](.\demos\qXLT.jpg) |
-| GIF动态图       | VbFe | ![VbFe](.\demos\VbFe.gif) |
+| 字母数字混合型  | 7w8W | ![HyGU](https://github.com/AntonVanke/Kaptcha/raw/master/demos/HyGU.jpg) |
+| 数字型          | 5244 | ![5244](https://github.com/AntonVanke/Kaptcha/raw/master/demos/5244.jpg) |
+| 字母型          | Ehqx | ![jFbF](https://github.com/AntonVanke/Kaptcha/raw/master/demos/jFbF.jpg) |
+| 增强型          | wd81 | ![wd81](https://github.com/AntonVanke/Kaptcha/raw/master/demos/wd81.jpg) |
+| 边缘凸显        | bpCk | ![bpCk](https://github.com/AntonVanke/Kaptcha/raw/master/demos/bpCk.jpg) |
+| 浮雕效果        | MkT6 | ![MkT6](https://github.com/AntonVanke/Kaptcha/raw/master/demos/MkT6.jpg) |
+| 轮廓            | qXLT | ![qXLT](https://github.com/AntonVanke/Kaptcha/raw/master/demos/qXLT.jpg) |
+| GIF动态图       | VbFe | ![VbFe](https://github.com/AntonVanke/Kaptcha/raw/master/demos/VbFe.gif) |
 
 ### 生成速度
 
@@ -33,6 +33,12 @@
 | GIF动图             | 10.93ms                |
 
 ## 如何使用
+
+#### 安装
+
+```bash
+pip install kaptcha
+```
 
 #### 简单的使用
 
@@ -123,5 +129,14 @@ Captcha(imageObj=True).letter(length=4)
 Captcha(imageObj=True).letter(length=4)[1].show()
 ```
 
+## LICENSE
 
+>
+> MIT License
+>
+> Copyright (c) 2022 AntonVanke
+
+---
+
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/kaptcha)](https://pypi.org/project/kaptcha/)[![PyPI - License](https://img.shields.io/pypi/l/kaptcha)](https://github.com/AntonVanke/Kaptcha/blob/master/LICENSE)[![GitHub Repo stars](https://img.shields.io/github/stars/antonvanke/kaptcha?style=social)](https://github.com/AntonVanke/Kaptcha)
 
